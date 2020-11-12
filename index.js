@@ -35,14 +35,24 @@ const renderOneEventPlanner = (event_planner) => {
 
   }
   
-  fetchEvents()
+ //Function to make a form appear when Book is clicked
+//const handleBookButton = 
+ 
+ 
+ 
+ fetchEvents()
 
 
 
 
-bookButton.addEventListener("click", () => {
-  console.log('hello')
-})
+
+document.addEventListener("click", (e) => {
+    if (e.target.className === "btn-warning") {
+      console.log("hello")
+    }
+  })
+
+
 
 
 //   function asd(a)
